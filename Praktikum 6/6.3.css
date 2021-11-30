@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+header, footer{
+    width: 100%;
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+.content{
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+aside{
+    background-color: aqua;
+    flex: 1;
+}
+
+article{
+    background-color: lightcoral;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+..paragrahp{
+    margin: 25px 0;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img{
+    width: 125px;
+    height: 125px;
+    background-color: 1px solid black;
+}
+
+header, footer, aside, article{
+    padding: 1em;
+    text-align: center;
+}
